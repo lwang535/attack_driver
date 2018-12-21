@@ -20,7 +20,7 @@
 
 #### 外部参数：
 
-样本数：10万；embedding 使用：glove.840B.300d.txt(换用别的embedding? 未完成)；自变量矩阵：30*300*问题数
+样本数：10万；embedding 使用：glove.840B.300d.txt(换用别的embedding? 未完成)；自变量矩阵：30\*300*问题数
 
 #### 内部参数：
 
