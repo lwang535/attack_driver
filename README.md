@@ -20,10 +20,20 @@
 
 #### 外部参数：
 
-样本数：10万；embedding 使用：glove.840B.300d.txt(换用别的embedding? 未完成)；自变量矩阵：30\*300*问题数
+样本数：10万；embedding 使用：glove.840B.300d.txt；自变量矩阵：30\*300*问题数
 
 #### 内部参数：
 
-batch_size = 90; 每个batch跑
-# Evaluation
-# Conclusion
+batch_size = 90; steps_per_epoch = 100; epochs = 10; validation set的比例0.3
+
+#### 模型结构：
+
+Conv1D+LSTM+Dense
+
+#### Evaluation
+Accuracy 有0.95，AUC 也挺高，估计有过拟合问题。
+
+#### Conclusion
+1、换用别的embedding? 
+
+2、
