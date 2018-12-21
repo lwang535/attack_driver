@@ -38,8 +38,12 @@ Accuracy 有0.95，AUC 也挺高，估计有过拟合问题。
 
 2、data cleaning 步骤是否需要去掉stopwords啥的？
 
-3、cross validation 需要做吗？
+3、挖feature吗？
 
 4、如果要增加运算量，比如增加batch size, epoch, 样本数量， 具体可以增加到多少？ kaggle的极限是？
 
 5、GPU尝试？
+
+6、cross validation 需要做吗？
+
+7、对过拟合问题，需要尝试正则化吗？
