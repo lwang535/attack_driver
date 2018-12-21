@@ -35,7 +35,7 @@ Accuracy 有0.95，AUC 也挺高，估计有过拟合问题。
 
 #### Conclusion
 1、换用别的embedding? 
-
+glove.840B.300d.txt 有4个多G，全部读对内存负担比较大，所以先看看最小的那个wiki-news-300d-1M 怎么样
 2、data cleaning 步骤是否需要去掉stopwords啥的？
 
 3、挖feature吗？
